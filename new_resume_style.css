@@ -1,0 +1,103 @@
+h1
+{
+	padding-left: 25px;
+	transition: 0.7s;
+	font-family: "Belleza";
+}
+h1:hover
+{
+	background-color: white;
+}
+li a
+{
+	font-size: 20px;
+	padding-bottom: 12px;
+}
+.box
+{
+	width: 1250px;
+	height: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	overflow: hidden;
+	background-color: #F8F8F8;
+}
+.basic_box
+{
+	width: 400px;
+	height: 359px;
+	overflow: hidden;
+}
+.pos_1
+{
+	position: absolute;
+	left: 20px;
+	top: 30px;
+}
+.pos_2
+{
+	position: absolute;
+	right: 20px;
+	top: 30px;
+}
+.pos_3
+{
+	position: absolute;
+	bottom:30px;
+	left: 20px;
+}
+.pos_4
+{
+	position: absolute;
+	bottom: 30px;
+	right: 20px;
+}
+.pos_5
+{
+	position: absolute;
+	top: 320.5px;
+	left: 425px;
+}
+.basic_box_2
+{
+	width: 140px;
+	height: 175px;
+	background-color:#ecc6c2e3;
+	transition: 0.7s;
+}
+.pos_2_1
+{
+	position: absolute;
+	cursor:pointer;
+}
+.pos_2_2
+{
+	width: 250px;
+	position: absolute;
+	left:140px;
+	background-color: white;
+}
+.pos_2_2:hover
+{
+	box-shadow: 10px 10px 5px grey;
+}
+.text
+{
+	font-size: 10px;
+	font-family: "Arapey";
+}
+img
+{
+	position: absolute;
+	bottom: -500px;
+	border-radius: 0px;
+}
+.box:hover img
+{
+	bottom: 6px;
+}
+.sac:hover
+{
+	bottom: 1000px;
+}
